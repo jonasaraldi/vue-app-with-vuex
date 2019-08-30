@@ -1,0 +1,33 @@
+<div class="post-form">
+    <h2>{{ title }}</h2>
+    <div class="row">
+        <div class="col-sm-6">
+            <card>
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        v-model="title"
+                        class="form-control" 
+                        placeholder="Título do post" />
+                </div>
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        v-model="author"
+                        class="form-control" 
+                        placeholder="Autor" />
+                </div>
+                <div class="form-group">
+                    <textarea
+                        v-model="content"
+                        class="form-control"
+                        placeholder="Era uma vez..."></textarea>
+                </div>
+            </card>
+            <button 
+                type="button" 
+                class="btn btn-primary" 
+                @click="saveForm">Salvar</button>    
+        </div>
+    </div>
+</div>
