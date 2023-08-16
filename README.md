@@ -1,3 +1,3 @@
-# VueApplication
+# vue-app-with-vuex
 
-Scaffolding para aplicações Vue escaláveis
+Scaffolding for scalable Vue applications using Vuex.
